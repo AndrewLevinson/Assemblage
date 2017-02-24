@@ -356,8 +356,8 @@ header .hero {
    font-style:italic;
  }
 
-           /*Get Started Today*/
 
+/*Get Started Today*/
 .get-started {
    text-align: center;
    display:block;
@@ -379,7 +379,6 @@ header .hero {
 
 /* FOOTER */
 
-/*
  footer {
    background-color: #31343d;
    color: #FFFFFF;
@@ -427,7 +426,7 @@ header .hero {
    }
  }
 
-*/
+
 
 
 /* Media Queries */
