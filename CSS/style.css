@@ -275,8 +275,8 @@ header .hero {
 
  /* PRICING */
  .pricing {
-    background: #00e0c7 url("../images/background.png") top center no-repeat;
-   background-image: linear-gradient( 35deg, rgb(0,224,199) 0%, rgb(45,161,156) 34%, rgb(90,97,112) 100%), url("../images/background.png") top center no-repeat;
+    background: #00e0c7 url("../Images/background.png") top center no-repeat;
+   background-image: linear-gradient( 35deg, rgb(0,224,199) 0%, rgb(45,161,156) 34%, rgb(90,97,112) 100%), url("../Images/background.png") top center no-repeat;
    background-size:cover;
    text-align: center;
    padding:4em 0;
