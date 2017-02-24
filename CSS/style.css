@@ -153,12 +153,240 @@ header .hero {
  }
 .btn:hover {
     color:#31343d;
-border-style: solid;
+  border-style: solid;
   border-width: 2px;
   border-color: rgb(108, 99, 255);
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 27px 24px 0px rgba(49, 52, 61, 0.2);
  }
+
+
+/* BENEFITS */
+ .benefits {
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+   color:#5a6170;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits h2 {
+   color:#5a6170;
+ }
+
+
+/* BENEFITS-Extended */
+.collaboration {
+    background: #f7f7f7;
+    padding: 4em 0;
+    position:relative;
+}
+
+.collaboration .content {
+    padding: 11em 0;
+    margin: 0 80px 0px 80px
+}
+
+.collaboration .content h2 {
+    font-weight: normal;
+    font-size: 28px;
+    color: #5a6170;
+    
+}
+.collaboration .content p {
+  font-size:22px;
+   line-height: 28px;
+   font-weight: 300;
+}
+
+.collaboration .image {
+    vertical-align: center;
+    padding: 80px 0 0 100px;
+    
+    
+}
+
+
+
+.organization {
+    background: #ffffff;
+    padding: 4em 0;
+}
+.browser-button {
+    background: #f7f7f7;
+        padding: 4em 0;
+
+}
+
+
+
+
+ /* PRICING */
+ .pricing {
+    background: #00e0c7 url("../images/background.png") top center no-repeat;
+   background-image: linear-gradient( 35deg, rgb(0,224,199) 0%, rgb(45,161,156) 34%, rgb(90,97,112) 100%), url("../images/background.png") top center no-repeat;
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
+
+.pricing h2, .pricing p {
+   color:#FFFFFF;
+ }
+ .pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+ }
+ .pricing ul li {
+   list-style-type: none;
+ }
+
+.box {
+   padding:0 15px 15px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+ }
+ .box.middle {
+   min-height: 485px;
+   margin-top:0px;
+ }
+ .box h3 {
+   font-family: "Nunito", Helvetica, Arial, sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   background: #E2E2E2;
+   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
+   left:0;
+   right:0;
+   top:0;
+   text-align: center;
+   margin:0 -15px 40px;
+   padding:10px 0;
+ }
+
+.box h4 {
+   font-size:50px;
+   font-weight: normal;
+   margin:40px 0 10px;
+   color:#5a6170;
+ }
+ .box h4 span {
+   font-size:32px;
+   vertical-align: top;
+ }
+ .box h4 span.month {
+   font-family: "Nunito", Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   color:#5a6170;
+   font-size:20px;
+   vertical-align: middle;
+ }
+ .box ul li {
+
+   font-size:18px;
+   margin-bottom:20px;
+   font-weight: 100;
+ }
+
+ .box .btn {
+   position:absolute;
+   bottom:20px;
+   left:20px;
+   right:20px;
+ }
+ .small {
+   font-size: 12px;
+   color: #FEFEFE;
+   line-height: 15px;
+   font-style:italic;
+ }
+
+           /*Get Started Today*/
+
+.get-started {
+   text-align: center;
+   display:block;
+   position: relative;
+    padding: 4em 0 7.5em 0em;
+ }
+ .get-started h1 {
+   font-size:48px;
+   font-weight: 300;
+ }
+ .get-started p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+
+
+
+/* FOOTER */
+
+/*
+ footer {
+   background-color: #31343d;
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ 
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+     float: right;
+ }
+
+
+
+
+ @media (min-width: 992px){
+   footer{
+     background-color: #31343d;
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
+
+*/
 
 
 /* Media Queries */
