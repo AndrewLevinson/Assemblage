@@ -1,7 +1,15 @@
 html, body{
    overflow-x: hidden;
+    position: relative; top: 48px;
+
  }
 
+.pane .view {
+    position: static;
+    position: absolute;
+    
+    
+}
  body {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
    color:#31343d;
@@ -59,6 +67,8 @@ h1 {
 /* HEADER */
 
 header .navigation {
+    z-index: 1;
+    position: fixed;
     height: 6em;
     width: 100%;
     background: rgb(49, 52, 61);
@@ -78,7 +88,7 @@ header .one-half {
     padding: 1.4em 0;
     width:88%;
    float:left;
-   position:relative;
+   position:fixed;
    min-height: 1px;
    margin:0 2% 0px;
 }
@@ -118,9 +128,8 @@ header .hero {
  header .hero h1 {
    font-size:48px;
    font-weight: 300;
-   margin: auto;
+   margin: 50px 0 0;
  }
-
  header .hero p {
    font-size: 22px;
    line-height: 26px;
@@ -425,6 +434,11 @@ img {
    .container {
      width: 750px;
    }
+
+    html, body{
+    top: 0px;
+ }
+    
     .one-half {
      width:46%;
    }
@@ -447,6 +461,11 @@ img {
   background-image: linear-gradient( 35deg, #00e0c7 0%, rgb(122,234,222) 0%, rgb(244,244,244) 80%);
 }
 
+    header .navigation {
+         z-index: 0;
+    position: relative;
+    }
+    
 header .one-half {
         text-align: left;
     padding: 1.5em 0 0 0;
