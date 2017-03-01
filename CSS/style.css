@@ -470,8 +470,14 @@ header .hero {
 }
 
 
-.active {
+strong {
+    font-weight: 700;
 }
+
+ .available:hover {
+    font-size: 16.5px;
+}
+
 
 
  .left-nav .items p {
