@@ -1140,7 +1140,9 @@ img {
 .btn-add {
     margin: -65px 0 0 -160px;
 }
-
+.hamburger {
+     display:none;
+   }
 
 /* Tablets */
 
