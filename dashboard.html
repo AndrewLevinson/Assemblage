@@ -21,8 +21,8 @@
 </head>
 
 <body class="dashboard">
-   <!-- RESPONSIVE NAV -->
-   <a class="hamburger" id="menu" href="#">&#9776;</a>
+    <!-- RESPONSIVE NAV -->
+    <a class="hamburger" id="menu" href="#">&#9776;</a>
     <!-- LEFT NAV -->
     <nav id="left-nav" class="left-nav">
         <a href="#" class="site-logo"><img src="Images/Logo@1x.png" srcset="Images/Logo@1x.png 1x, Images/Logo@2x.png 2x" alt="Assemblage" /></a>
@@ -51,8 +51,17 @@
                 <i class="fa fa-search"></i>
             </div>
             <div class="settings">
-                <p>Andrew Levinson</p>
-                <img src="Images/Profile.jpg">
+                <ul class="menu-settings">
+                    <p>Andrew Levinson</p>
+                    <li>
+                        <a> <img src="Images/Profile.jpg"></a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-gear"></i> Account Settings</a></li>
+                            <li><a href="#"><i class="fa fa-group"></i> Collaborators</a></li>
+                            <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
 
@@ -74,7 +83,7 @@
                 </div>
                 <div class="collections">
                     <h3>Collections: All
-                    <i class="fa fa-angle-down"></i></h3>
+                        <i class="fa fa-angle-down"></i></h3>
                 </div>
             </div>
             <div class="container animated bounceInDown">
@@ -143,9 +152,10 @@
     <script src="JS/dropit.js"></script>
     <script type="text/javascript">
         $(".menu").dropit();
-        $( "#menu" ).click(function() {
-         $("#left-nav").toggleClass("open", 200);
-     });
+        $(".menu-settings").dropit();
+        $("#menu").click(function() {
+            $("#left-nav").toggleClass("open", 200);
+        });
     </script>
 
 </body>

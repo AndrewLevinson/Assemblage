@@ -542,7 +542,6 @@ strong {
 /* CONTENT */
 
 
-
 /*
 .content {
     padding: 6em 1% 1.5em;
@@ -551,7 +550,6 @@ strong {
     position: relative;
 }
 */
-
 
 .content .header {
     margin: 6% 1% 20px;
@@ -1050,7 +1048,7 @@ img {
     .content .header h1 {
         font-weight: 100;
         color: #31343d;
-/*                width: 150px;*/
+        /*                width: 150px;*/
         margin-left: 0px;
         text-align: center;
     }
@@ -1063,7 +1061,7 @@ img {
         margin-top: -45px;
         text-align: right;
     }
-/*
+    /*
     .collections h3 {
         margin: 25px 10px 1px;
         font-size: 28px;
@@ -1074,7 +1072,7 @@ img {
     }
 */
     .btn-add {
-/*        float: right;*/
+        /*        float: right;*/
     }
 }
 
@@ -1088,7 +1086,7 @@ img {
     .content .header {
         margin: auto;
         z-index: 1;
-        text-align: center;        
+        text-align: center;
         border-bottom: 1px solid #000000;
         background: #F7F7F7;
     }
@@ -1192,7 +1190,6 @@ img {
     .dashboard {
         margin-top: 0px;
     }
-   
     #top-nav {
         height: 69px;
         background: #F7F7F7;
@@ -1231,9 +1228,12 @@ img {
     .top-nav .settings {
         display: flex;
         margin: auto 35px;
+        /*        margin-top: -15px;*/
+        height: 70px;
+        width: auto;
     }
     .top-nav .settings p {
-        float: right;
+        /*        float: right;*/
         font-weight: 400;
         font-size: 13px;
         padding: 2em 10px;
@@ -1328,42 +1328,33 @@ img {
         text-align: center;
         margin-right: 8px;
     }
-
-
-.content {
-    padding: 1.5em 1.25%;
-    margin-top: 0em;
-    float: right;
-    width: 83.3333%;
-    position: relative;
-}
-
-.content>.container {
-    width: auto;
-
-}
-
-.content-item {
-    width: 30.3333%;
-    margin: 0 1.5% 25px;
-}
-
-
-/*
+    .content {
+        padding: 1.5em 1.25%;
+        margin-top: 0em;
+        float: right;
+        width: 83.3333%;
+        position: relative;
+    }
+    .content>.container {
+        width: auto;
+    }
+    .content-item {
+        width: 30.3333%;
+        margin: 0 1.5% 25px;
+    }
+    /*
 .btn-add {
     right: 50%;
     top: 10%;
     position: relative;
 }
 */
-    
-.btn-add {
-/*
+    .btn-add {
+        /*
         float: left;
         margin-left: -800px;
 */
     }
-    
     .content .header {
         margin: 6% 1% 20px;
         width: 100%;
@@ -1371,7 +1362,6 @@ img {
         justify-content: space-between;
         border-bottom: none;
     }
-    
     .content .header h1 {
         font-weight: 100;
         font-size: 36px;
@@ -1381,24 +1371,22 @@ img {
         display: flex;
         width: auto;
     }
-    
     .content .header .left-header {
         width: 275px;
-        
-        
     }
-    
     .collections {
         display: flex;
         text-align: left;
-        width: 225px;         
+        width: 225px;
     }
     .collections h3 {
         width: 205px;
     }
 }
 
+
 /* Laptops and Desktops */
+
 @media (min-width:992px) {
     .content {
         padding: 1.5em 1%;
@@ -1407,17 +1395,14 @@ img {
         margin-top: 0em;
         position: relative;
     }
-    
     .content>.container {
         width: auto;
     }
-    
     .content-item {
         width: 23%;
         margin: 0 1% 25px;
     }
-    
-/*
+    /*
     .btn-add {
         margin: -65px 0 0 -160px;
     }
