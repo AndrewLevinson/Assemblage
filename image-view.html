@@ -16,19 +16,22 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/font-awesome.css">
     <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/dropit.css">
 
 </head>
 
 <body class="dashboard">
+    <!-- RESPONSIVE NAV -->
+    <a class="hamburger" id="menu" href="#">&#9776;</a>
     <!-- LEFT NAV -->
     <nav id="left-nav" class="left-nav">
         <a href="#" class="site-logo"><img src="Images/Logo@1x.png" srcset="Images/Logo@1x.png 1x, Images/Logo@2x.png 2x" alt="Assemblage" /></a>
         <div class="items">
             <p>View Items</p>
             <ul>
-                <li class="available"><a href="dashboard.html"><i class="fa fa-th-large"></i> All Items</a></li>
+                <li class="available"><a href="dashboard.html"><i class="fa fa-th-large"></i>All Items</a></li>
                 <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
-                <li><a href="image-view.html"><i class="fa fa-picture-o"></i><strong> Images</strong></a></li>
+                <li class="active"><a href="image-view.html"><i class="fa fa-picture-o"></i><strong> Images</strong></a></li>
                 <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
             </ul>
             <p>Filter By:</p>
@@ -58,67 +61,86 @@
             <div class="header">
                 <div class="left-header">
                     <h1>Images</h1>
-                    <a href="#" class="btn-add"> + </a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="btn-add"> + </a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                                <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                                <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div class="collections">
-                    <h2>Collections: </h2>
-                    <h3>All <i class="fa fa-angle-down"></i></h3>
+                    <h3>Collections: All
+                        <i class="fa fa-angle-down"></i></h3>
                 </div>
             </div>
             <div class="container animated bounceInDown">
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="Images/bar.jpg">
+                <div class="container animated bounceInDown">
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="Images/bar.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="http://68.media.tumblr.com/34ed10a6ff9dc781ff4a9ad3fce77663/tumblr_o6no3bhGVY1tubinno1_1280.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="http://68.media.tumblr.com/c63e7dbe088ba65fa3ecba919bf8594c/tumblr_o6nnz8Glgm1tubinno1_1280.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="Images/office.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="http://68.media.tumblr.com/48e9569d471281d83a7e63c45fe74fa8/tumblr_o6nnyriAcM1tubinno1_1280.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="Images/computer.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="http://68.media.tumblr.com/eb79b98c03032d1193725af05a83b606/tumblr_nqx93hCIEX1tubinno1_1280.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="Images/people.jpg">
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-box">
+                            <img src="https://images.pexels.com/photos/136132/pexels-photo-136132.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="http://68.media.tumblr.com/34ed10a6ff9dc781ff4a9ad3fce77663/tumblr_o6no3bhGVY1tubinno1_1280.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="http://68.media.tumblr.com/c63e7dbe088ba65fa3ecba919bf8594c/tumblr_o6nnz8Glgm1tubinno1_1280.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="Images/office.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="http://68.media.tumblr.com/48e9569d471281d83a7e63c45fe74fa8/tumblr_o6nnyriAcM1tubinno1_1280.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="Images/computer.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="http://68.media.tumblr.com/eb79b98c03032d1193725af05a83b606/tumblr_nqx93hCIEX1tubinno1_1280.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="Images/people.jpg">
-                    </div>
-                </div>
-                <div class="content-item">
-                    <div class="item-box">
-                        <img src="https://images.pexels.com/photos/136132/pexels-photo-136132.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
+
+    <script src="JS/jquery-3.1.1.min.js"></script>
+    <script src="JS/dropit.js"></script>
+    <script type="text/javascript">
+        $(".menu").dropit();
+        $("#menu").click(function() {
+            $("#left-nav").toggleClass("open", 200);
+        });
+    </script>
 </body>
 
 </html>

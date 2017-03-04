@@ -19,13 +19,14 @@
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
-    right: 70px; /* dropdown left or right */
+    right: 0px; /* dropdown left or right */
     z-index: 1000;
     display: none;
     min-width: 100px;
     list-style: none;
-	padding: 20px;
-	margin: 20px 0 0;
+	padding: 12px;
+	margin: 0px -13px 0px;
+    text-align: center;
 }
 .dropit .dropit-open .dropit-submenu { 
     display: block; 
